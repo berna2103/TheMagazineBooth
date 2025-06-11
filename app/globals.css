@@ -1,5 +1,5 @@
 @import "tailwindcss";
-
+/* 
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -17,10 +17,19 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
-}
+} */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  /* background: var(--background);
+  color: var(--foreground); */
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.hero_background {
+/* Replace .your-div-class with the actual class of your div */
+  background-color: rgba(255, 255, 255, 0.2); /* Adjust the last value (0.2) for transparency */
+  backdrop-filter: blur(5px); /* Adjust the blur amount as needed */
+  /* You might also want to add a fallback for browsers that don't support backdrop-filter */
+  -webkit-backdrop-filter: blur(5px); /* For Safari support */
+}
+
