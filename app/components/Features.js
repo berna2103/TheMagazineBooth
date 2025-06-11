@@ -28,7 +28,7 @@ export function Features() {
               Capture the Moment in Style, Magazine Photo Booth Rental in Chicago and Northwest Indiana!
             </h2>
             <p className="mt-8 text-lg text-gray-500">
-               Ready to make your event truly unforgettable? With our sleek and stylish Magazine Photo Booth Rental, your Chicago celebration will transform into an instant red-carpet affair. It's the perfect addition for weddings, corporate events, private parties, and any occasion where you want guests to feel like a cover star! </p>
+               Ready to make your event truly unforgettable? With our sleek and stylish Magazine Photo Booth Rental, your Chicago celebration will transform into an instant red-carpet affair. It&apos;s the perfect addition for weddings, corporate events, private parties, and any occasion where you want guests to feel like a cover star! </p>
           </div>
           <div className="mt-12 lg:mt-0 lg:col-span-2 bg-red-100 p-8 rounded-lg shadow-lg">
             <dl className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-1 sm:gap-x-6 sm:gap-y-10 lg:gap-x-8">
