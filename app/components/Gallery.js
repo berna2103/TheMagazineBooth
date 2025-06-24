@@ -5,28 +5,28 @@ import Image from "next/image";
 // You can fetch this data from a CMS, API, or define it locally.
 const imageData = [
   {
-    src: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    alt: "A yellow sports car",
+    src: "/1.jpeg",
+    alt: "photo booth",
   },
   {
-    src: "https://images.unsplash.com/photo-1599912027806-cfec9f5944b6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+    src: "/2.jpeg",
     alt: "A red classic car",
   },
   {
-    src: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    alt: "A white porsche",
+    src: "/3.jpeg",
+    alt: "A red classic car",
   },
   {
-    src: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    alt: "A yellow and black sports car",
+    src: "/4.jpeg",
+    alt: "A red classic car",
   },
   {
-    src: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-    alt: "A red ferrari",
+    src: "/5.jpeg",
+    alt: "A red classic car",
   },
   {
-    src: "https://images.unsplash.com/photo-1514316454349-750a7fd3da3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80",
-    alt: "A classic blue car",
+    src: "/6.jpeg",
+    alt: "A red classic car",
   },
 ];
 
@@ -44,7 +44,7 @@ export function Gallery() {
           {imageData.map((image, index) => (
             <div
               key={index}
-              className="group relative h-80 w-full overflow-hidden rounded-lg shadow-lg"
+              className="group relative h-160 w-full overflow-hidden rounded-lg shadow-lg"
             >
               <Image
                 src={image.src}
